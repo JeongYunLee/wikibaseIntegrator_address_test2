@@ -1,7 +1,7 @@
 # WikibaseIntegrator
 
 
-> 📌 local wikibase에 데이터 import 테스트 결과
+📌 local wikibase에 데이터 import 테스트 결과
 > 
 > [참고자료]
 > - 깃헙: https://github.com/SemanticLab/data-2-wikibase
@@ -44,12 +44,12 @@
     
     이거 하면 `NOTE: [user-config.py](http://user-config.py/) was not found!` 이라는 말 나오면서 새로 생성 시작l
     
-    ![Untitled](WikibaseIntegrator%208af300c92536484c923c9ec25e00ff30/Untitled.png)
+    ![Untitled](/README_images/Untitled.png)
     
     - family 선택할 때 mediawiki로 진행 (wikidata도 되긴 하는데 언어 설정 부분이 확실하지 않음)
     - username, bot name, bot password 치고 나서 아래와 같은 질문 나왔을 때 다 a(전체 다 선택함) 누르면 [user-config.py](http://user-config.py) 파일 생성 완료됨
     
-    ![Untitled](WikibaseIntegrator%208af300c92536484c923c9ec25e00ff30/Untitled%201.png)
+    ![Untitled](/README_images/Untitled%201.png)
     
 
 ### 3.3. core/user-config.py 파일 수정하기
@@ -60,21 +60,21 @@
     - paddword_file 경로 지정
     - mylang 에 다른 언어도 넣어주고 싶다면 똑같은 형식으로 넣으면 됨 (ex. `mylnag = 'ko'`)
     
-    ![Untitled](WikibaseIntegrator%208af300c92536484c923c9ec25e00ff30/Untitled%202.png)
+    ![Untitled](/README_images/Untitled%202.png)
     
 
 ### 3.4. core/user-password.py 파일 수정하기
 
 - 형식이 아래와 다르게 저장되어 있을 수 있음. 아래와 같은 형식으로 수정하기
     
-    ![Untitled](WikibaseIntegrator%208af300c92536484c923c9ec25e00ff30/Untitled%203.png)
+    ![Untitled](/README_images/Untitled%203.png)
     
 
 ### 3.5. core/pywikibot/config.py 파일 수정하기
 
 - user_config_file 변수에 get_user_confifg_file() 함수 쓰지 말고 그냥 [user-config.py](http://user-config.py) 경로로 바로 넣어주기
     
-    ![Untitled](WikibaseIntegrator%208af300c92536484c923c9ec25e00ff30/Untitled%204.png)
+    ![Untitled](/README_images/Untitled%204.png)
     
 
 # 4. ipynb: CONNECT
