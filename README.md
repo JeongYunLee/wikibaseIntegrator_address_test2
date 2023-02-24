@@ -1,11 +1,16 @@
 # WikibaseIntegrator
 
 
-📌 local wikibase에 데이터 import 테스트 결과
-> 
-> [참고자료]
-> - 깃헙: https://github.com/SemanticLab/data-2-wikibase
-> - 가이드: https://medium.com/@thisismattmiller/wikibase-for-research-infrastructure-part-1-d3f640dfad34
+### 📌 local wikibase에 데이터 import 테스트 결과
+
+[참고자료]
+- 깃헙: https://github.com/SemanticLab/data-2-wikibase
+- 가이드: https://medium.com/@thisismattmiller/wikibase-for-research-infrastructure-part-1-d3f640dfad34
+
+### 📌 import 데이터 구조
+- __properties__: import할 데이터의 컬럼(wikidata에서는 statements 부분). type과 description을 미리 지정해줘야 함. 각각의 페이지를 생성하고 PID를 부여함
+- __core items__: 통제어휘 같은 느낌. 각각의 페이지를 생성하고 QID를 부여함
+- __items__: import할 데이터. 컬럼명은 properties에서 부여한 PID와 datatype을 `PID:datatype`과 같은 형태로 수정해줘야 함. 각 item의 상단에 생기는 박스 (language, label, description 등 보여주는)에 넣을 내용은 `PID:datatype`와 같은 형태가 아닌 일반 변수값(임의 지정 가능)으로 유지함. 각각의 페이지를 생성하고 PID를 부여함
 
 
 # 1.  가상환경 설정
