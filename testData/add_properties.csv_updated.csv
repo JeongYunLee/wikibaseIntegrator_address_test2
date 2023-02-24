@@ -1,0 +1,10 @@
+Property Label,Datatype,Property Description,PID
+식별자,string,identifier,P50
+구분,string,index,P51
+용어출처,string,source of term,P52
+용어(영문),string,term(eng),P53
+용어(로마자),string,term(rom),P54
+용어(한자),string,term(zh),P55
+별칭 또는 줄임말,string,another name or abbreviation,P56
+최종출처,string,final source,P57
+등록일,string,registration date,P58

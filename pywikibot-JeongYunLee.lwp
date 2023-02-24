@@ -1,0 +1,5 @@
+#LWP-Cookies-2.0
+Set-Cookie3: UseCDNCache=false; path="/"; domain="localhost.local"; path_spec; expires="2023-02-24 04:22:25Z"; HttpOnly=None; version=0
+Set-Cookie3: UseDC=master; path="/"; domain="localhost.local"; path_spec; expires="2023-02-24 04:22:25Z"; HttpOnly=None; version=0
+Set-Cookie3: my_wiki_BPsession=89s3dlbksaj1qtgmcirbrg5nvrgpckf8; path="/"; domain="localhost.local"; path_spec; discard; HttpOnly=None; version=0
+Set-Cookie3: my_wiki_session=5os4alm5l1ekn41oajh89l2i166vf3vi; path="/"; domain="localhost.local"; path_spec; discard; HttpOnly=None; version=0

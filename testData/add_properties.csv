@@ -1,0 +1,10 @@
+﻿Property Label,Datatype,Property Description
+식별자,string,identifier
+구분,string,index
+용어출처,string,source of term
+용어(영문),string,term(eng)
+용어(로마자),string,term(rom)
+용어(한자),string,term(zh)
+별칭 또는 줄임말,string,another name or abbreviation
+최종출처,string,final source
+등록일,string,registration date
