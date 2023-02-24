@@ -5,7 +5,7 @@
 > 
 > [참고자료]
 > - 깃헙: https://github.com/SemanticLab/data-2-wikibase
-> - 가이드: [https://learningwikibase.com/data-import/](https://learningwikibase.com/data-import/)
+> - 가이드: https://medium.com/@thisismattmiller/wikibase-for-research-infrastructure-part-1-d3f640dfad34
 
 
 # 1.  가상환경 설정
